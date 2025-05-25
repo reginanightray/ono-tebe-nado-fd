@@ -78,7 +78,7 @@
     background-color: rgb(0,0,0, 0.6);
 }
 
-.cover__title { 
+.cover__title {
     padding-top: 160px;
     font-weight: bold;
     font-size: 100px;
@@ -117,11 +117,11 @@
 }
 
 .bet-button {
-    border: 1px solid #fff; 
+    border: 1px solid #fff;
     padding: 12px 32px;
     color: #fff;
     font-weight: medium;
-    font-size: 22px; 
+    font-size: 22px;
     line-height: auto;
     text-transform: uppercase;
     background-color: transparent;
