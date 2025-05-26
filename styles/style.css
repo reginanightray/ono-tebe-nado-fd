@@ -138,6 +138,7 @@ html {
 
 
 .lots__heading {
+    margin-bottom: 27px;
     padding-left: 40px;
     font-weight: bold;
     font-size: 40px;
@@ -155,8 +156,6 @@ html {
     display: flex;
     width: 334px;
     min-height: 596px;
-    margin-top: 27px;
-    margin-bottom: 29px;
     list-style-type: none;
 }
 
@@ -210,6 +209,8 @@ html {
 }
 
 .lots__look-more-link {
+    display: inline-block;
+    margin-top: 29px;
     padding-left: 40px;
     font-size: 20px;
 }
