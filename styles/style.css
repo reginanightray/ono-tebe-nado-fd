@@ -1,4 +1,8 @@
 /* место для вашего кода */
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -44,6 +48,7 @@
 
 .adress {
     font-size: 18px;
+    font-style: normal;
     line-height: 24.3px;
 }
 
@@ -57,8 +62,9 @@
     position: relative;
     z-index: 1;
     width: 1100px;
-    height: 757px;
+    padding-top: 160px;
     padding-right: 50px;
+    padding-bottom: 50px;
     padding-left: 50px;
     color: #fff;
     text-transform: uppercase;
@@ -79,15 +85,16 @@
 }
 
 .cover__title {
-    padding-top: 160px;
+    margin-bottom: 106px;
     font-weight: bold;
     font-size: 100px;
-    line-height: 130%;
+    line-height: 115%;
     letter-spacing: 0.3em;
 }
 
 .accent_span {
-    display:block;
+    display: block;
+    margin-bottom: 22px;
 }
 
 .text-center {
@@ -106,8 +113,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 106px;
-    padding-bottom: 50px;
 }
 
 .cover__description__text {
@@ -128,8 +133,9 @@
 }
 
 .lots {
-    padding: 180px 24px 118px;
+    padding: 180px 24px 120px;
 }
+
 
 .lots__heading {
     padding-left: 40px;
@@ -140,36 +146,31 @@
 
 .lots__card-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 25px;
 }
 
 .lots__card-list-item {
     display: flex;
-    flex-wrap: wrap;
     width: 334px;
     min-height: 596px;
-    padding-top: 27px;
-    padding-bottom: 34px;
+    margin-top: 27px;
+    margin-bottom: 29px;
     list-style-type: none;
 }
 
 .card_type_film {
     background-image: url("../images/card-lot-01.jpg");
-    background-position: center;
-    background-size: cover;
 }
 
 .card_type_book {
     background-image: url("../images/card-lot-02.jpg");
-    background-position: center;
-    background-size: cover;
+    
 }
 
 .card_type_picture {
     background-image: url("../images/card-lot-03.jpg");
-    background-position: center;
-    background-size: cover;
 }
 
 .card-link {
@@ -185,6 +186,8 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 .card__title {
@@ -225,7 +228,7 @@
     align-items: center;
     width: 240px;
     height: 240px;
-    margin-top: 35px;
+    margin-top: 33px;
     margin-left: 47px;
     border-radius: 50%;
     background-color: #000;
@@ -241,7 +244,7 @@
 }
 
 .about__title {
-    margin-top: 136px;
+    margin-top: 135px;
     margin-bottom: 100px;
     font-weight: bold;
     font-size: 40px;
